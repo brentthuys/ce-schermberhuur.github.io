@@ -18,26 +18,11 @@ nav ul li {
 
 #prijslijst{
     height: 900px;
-    width: 100%;
-    
+    width: 100%; 
 }
 
-#infotext{
-    height: 250px;
-    width: 200%;
-    margin-left: 50%;
-    border: 2px solid #32CD32;
-}
 
-#infotext2{
-    height: 250px;
-    width: 200%;
-    margin-top: 50%;
-    margin-left: -255px;
-    border: 2px solid #32CD32;
-    
-   
-}
+
 
 .black{
     color: black;
@@ -149,7 +134,7 @@ aside {
     text-decoration: none;
     padding: 10px;
     font-size: 22px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 20px 10px;
     color: black;
 }
@@ -167,7 +152,7 @@ article img {
 
 article li {
     margin: 20px;
-    list-style-type: square;
+    list-style-type: none;
 }
 
 p {
@@ -301,7 +286,24 @@ aside input {
     #infodiv {
         margin-top: 5%;
     }
-    
+    #infotext{
+    height: 250px;
+    width: 200%;
+    margin-left: 50%;
+    border: 2px solid #32CD32;
+}
+
+    #infotext2{
+    height: 250px;
+    width: 68.5%;
+        margin-left: auto;
+        margin-right: auto;
+    border: 2px solid #32CD32;
+}
+    #infodiv aside{
+     border: 0px;
+     grid: 0fr;
+    }
     
 
     p {

@@ -1,6 +1,6 @@
 html {
     font-family: verdana, sans-serif;
-    background-image:url(../img/background.jpg);
+    background-image:url(../img/tekening.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,11 +10,13 @@ html {
 #Cehometext{
     color: black;
     font-size: 60px;
-    margin-left: 470px;
-    margin-top: 280px;
+    margin-left: 520px;
+    margin-top: 250px;
     font-family: cursive;
     text-shadow: 3px 3px #32CD32 ;
 }
+
+
 
 footer{
 
@@ -23,14 +25,13 @@ footer{
 
 #boutersem{
     font-family: cursive;
-    text-shadow: 2px px #32CD32;
+    text-shadow: 2px 2px black;
     text-align: center;
     margin-top: -300px;
-    color: black;
+    color: #32CD32;
     font-size: 40px;
-    margin-right: 30px;
+    padding-left: 40px;
 }
-
 
 li {
     background-color: black;
