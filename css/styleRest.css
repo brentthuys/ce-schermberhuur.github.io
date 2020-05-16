@@ -16,30 +16,30 @@ nav ul li {
 
 }
 
-#prijslijst{
+#prijslijst {
     height: 900px;
-    width: 100%; 
+    width: 100%;
 }
 
 
 
 
-.black{
+.black {
     color: black;
     text-decoration: underline;
     background-color: #32CD32;
 }
 
-.textblack{
+.textblack {
     font-size: 20px;
     text-align: justify-all;
 }
 
-p{
+p {
     font-size: 18px;
 }
 
-h2{
+h2 {
     text-align: center;
     font-weight: bold;
 }
@@ -52,7 +52,7 @@ nav ul li a:hover {
     color: white;
 }
 
-p{
+p {
     text-align: center;
 }
 
@@ -84,37 +84,46 @@ h2 {
     color: #32CD32;
 }
 
-table{
+#scherm1 h2,
+#scherm2 h2 {
+    color: black;
+}
+
+table {
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 95%;
 }
 
-table, tr, td{
+table,
+tr,
+td {
     width: 65%;
     height: 50px;
-    border: 3px solid  black;
+    border: 3px solid black;
     font-size: 24px;
+   
 }
 
-.green{
+.green {
     color: white;
-    background-color:  #32CD32;
+    background-color: #32CD32;
     width: 190px;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     padding-top: 8px;
 }
 
-td{
+td {
     text-align: center;
     width: 120px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 12px;
     padding-top: 8px;
+    padding: 10px;
 }
 
-#pricelist{
+#pricelist {
     text-align: center;
     font-size: 20px;
     font-style: oblique;
@@ -281,39 +290,45 @@ aside input {
         font-family: georgia;
         color: darkgreen;
     }
-    
+
 
     #infodiv {
         margin-top: 5%;
     }
-    #infotext{
-    height: 250px;
-    width: 200%;
-    margin-left: 50%;
-    border: 2px solid #32CD32;
-}
+    #infotext {
+        height: 250px;
+        width: 200%;
+        margin-left: 50%;
+        border: 2px solid #32CD32;
+    }
 
-    #infotext2{
-    height: 250px;
-    width: 68.5%;
+    #infotext2 {
+        height: 250px;
+        width: 68.5%;
         margin-left: auto;
         margin-right: auto;
-    border: 2px solid #32CD32;
-}
-    #infodiv aside{
-     border: 0px;
-     grid: 0fr;
+        border: 2px solid #32CD32;
     }
-    
+
+    td {
+        font-size: 18px;
+        
+
+    }
+
+    .green {
+
+        font-size: 18px;
+
+    }
+
+    #infodiv aside {
+        border: 0px;
+        grid: 0fr;
+    }
+
 
     p {
-        line-height: 200%;   
+        line-height: 200%;
         margin-top: 5%
-            
     }
-
-    
-    
-    
-    
-    
